@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(20px); /* Começa um pouco abaixo */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0); /* Chega à posição original */
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 1s ease-out forwards;
+    border: 2px blue-500;
+  }
+
+  
+  
